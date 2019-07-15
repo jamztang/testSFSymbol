@@ -16,6 +16,9 @@
 		1ACA88F922D856B600F8B799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88F822D856B600F8B799 /* main.m */; };
 		1ACA890322D856B600F8B799 /* testSFSymbolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA890222D856B600F8B799 /* testSFSymbolsTests.m */; };
 		1ACA890E22D856B700F8B799 /* testSFSymbolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA890D22D856B700F8B799 /* testSFSymbolsUITests.m */; };
+		211678B94F4CF0A1FBB9C6D3 /* Pods_testSFSymbolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FBAA89C10FAFAE905DD013 /* Pods_testSFSymbolsTests.framework */; };
+		22B2F78CD5B025D9B7BCBF96 /* Pods_testSFSymbols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3754CEBE82463710EE71FC /* Pods_testSFSymbols.framework */; };
+		90E699C05937952E24E1FA1B /* Pods_testSFSymbolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25740B9159E6DF0022BC4E58 /* Pods_testSFSymbolsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,15 @@
 		1ACA890D22D856B700F8B799 /* testSFSymbolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSFSymbolsUITests.m; sourceTree = "<group>"; };
 		1ACA890F22D856B700F8B799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ACA891B22D87BFA00F8B799 /* testSFSymbols.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testSFSymbols.entitlements; sourceTree = "<group>"; };
+		25740B9159E6DF0022BC4E58 /* Pods_testSFSymbolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSFSymbolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30154BE4D10D84DF4D15CDD0 /* Pods-testSFSymbols.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSFSymbols.release.xcconfig"; path = "Target Support Files/Pods-testSFSymbols/Pods-testSFSymbols.release.xcconfig"; sourceTree = "<group>"; };
+		99C17056890EA9E87C1CE9A9 /* Pods-testSFSymbolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSFSymbolsTests.release.xcconfig"; path = "Target Support Files/Pods-testSFSymbolsTests/Pods-testSFSymbolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA3754CEBE82463710EE71FC /* Pods_testSFSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSFSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBF66E3C49B84B05508D672 /* Pods-testSFSymbolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSFSymbolsUITests.release.xcconfig"; path = "Target Support Files/Pods-testSFSymbolsUITests/Pods-testSFSymbolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D69645A7C5CDC267B0AB4140 /* Pods-testSFSymbolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSFSymbolsTests.debug.xcconfig"; path = "Target Support Files/Pods-testSFSymbolsTests/Pods-testSFSymbolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF427A9D5A30A7364E88ABC7 /* Pods-testSFSymbols.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSFSymbols.debug.xcconfig"; path = "Target Support Files/Pods-testSFSymbols/Pods-testSFSymbols.debug.xcconfig"; sourceTree = "<group>"; };
+		F15BEE3CF81FB4D924383716 /* Pods-testSFSymbolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSFSymbolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-testSFSymbolsUITests/Pods-testSFSymbolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FBAA89C10FAFAE905DD013 /* Pods_testSFSymbolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSFSymbolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B2F78CD5B025D9B7BCBF96 /* Pods_testSFSymbols.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211678B94F4CF0A1FBB9C6D3 /* Pods_testSFSymbolsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E699C05937952E24E1FA1B /* Pods_testSFSymbolsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				1ACA890122D856B600F8B799 /* testSFSymbolsTests */,
 				1ACA890C22D856B700F8B799 /* testSFSymbolsUITests */,
 				1ACA88E422D856B500F8B799 /* Products */,
+				C0C2BA387D0B24C05FB7B72F /* Pods */,
+				1FF1DC315A514AB0E9BFCCF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +156,30 @@
 			path = testSFSymbolsUITests;
 			sourceTree = "<group>";
 		};
+		1FF1DC315A514AB0E9BFCCF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3754CEBE82463710EE71FC /* Pods_testSFSymbols.framework */,
+				F5FBAA89C10FAFAE905DD013 /* Pods_testSFSymbolsTests.framework */,
+				25740B9159E6DF0022BC4E58 /* Pods_testSFSymbolsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C2BA387D0B24C05FB7B72F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF427A9D5A30A7364E88ABC7 /* Pods-testSFSymbols.debug.xcconfig */,
+				30154BE4D10D84DF4D15CDD0 /* Pods-testSFSymbols.release.xcconfig */,
+				D69645A7C5CDC267B0AB4140 /* Pods-testSFSymbolsTests.debug.xcconfig */,
+				99C17056890EA9E87C1CE9A9 /* Pods-testSFSymbolsTests.release.xcconfig */,
+				F15BEE3CF81FB4D924383716 /* Pods-testSFSymbolsUITests.debug.xcconfig */,
+				CCBF66E3C49B84B05508D672 /* Pods-testSFSymbolsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ACA891222D856B700F8B799 /* Build configuration list for PBXNativeTarget "testSFSymbols" */;
 			buildPhases = (
+				BA157410F829858B23C095D6 /* [CP] Check Pods Manifest.lock */,
 				1ACA88DF22D856B500F8B799 /* Sources */,
 				1ACA88E022D856B500F8B799 /* Frameworks */,
 				1ACA88E122D856B500F8B799 /* Resources */,
@@ -163,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ACA891522D856B700F8B799 /* Build configuration list for PBXNativeTarget "testSFSymbolsTests" */;
 			buildPhases = (
+				E9C5E57601A1D0ADF6BD8181 /* [CP] Check Pods Manifest.lock */,
 				1ACA88FA22D856B600F8B799 /* Sources */,
 				1ACA88FB22D856B600F8B799 /* Frameworks */,
 				1ACA88FC22D856B600F8B799 /* Resources */,
@@ -181,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ACA891822D856B700F8B799 /* Build configuration list for PBXNativeTarget "testSFSymbolsUITests" */;
 			buildPhases = (
+				61BB2C08834FE690D081D157 /* [CP] Check Pods Manifest.lock */,
 				1ACA890522D856B600F8B799 /* Sources */,
 				1ACA890622D856B600F8B799 /* Frameworks */,
 				1ACA890722D856B600F8B799 /* Resources */,
@@ -263,6 +307,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61BB2C08834FE690D081D157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testSFSymbolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA157410F829858B23C095D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testSFSymbols-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C5E57601A1D0ADF6BD8181 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testSFSymbolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1ACA88DF22D856B500F8B799 /* Sources */ = {
@@ -439,6 +552,7 @@
 		};
 		1ACA891322D856B700F8B799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF427A9D5A30A7364E88ABC7 /* Pods-testSFSymbols.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = testSFSymbols/testSFSymbols.entitlements;
@@ -459,6 +573,7 @@
 		};
 		1ACA891422D856B700F8B799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30154BE4D10D84DF4D15CDD0 /* Pods-testSFSymbols.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = testSFSymbols/testSFSymbols.entitlements;
@@ -479,6 +594,7 @@
 		};
 		1ACA891622D856B700F8B799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69645A7C5CDC267B0AB4140 /* Pods-testSFSymbolsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +614,7 @@
 		};
 		1ACA891722D856B700F8B799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C17056890EA9E87C1CE9A9 /* Pods-testSFSymbolsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +634,7 @@
 		};
 		1ACA891922D856B700F8B799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15BEE3CF81FB4D924383716 /* Pods-testSFSymbolsUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UAR78B6YU;
@@ -535,6 +653,7 @@
 		};
 		1ACA891A22D856B700F8B799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBF66E3C49B84B05508D672 /* Pods-testSFSymbolsUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UAR78B6YU;
