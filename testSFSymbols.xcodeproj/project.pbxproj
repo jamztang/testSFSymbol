@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AC3E46222DC81D900CF71A7 /* iOS13.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iOS13.xcassets; sourceTree = "<group>"; };
 		1ACA88E322D856B500F8B799 /* testSFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACA88E622D856B500F8B799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1ACA88E722D856B500F8B799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 				1ACA88F422D856B600F8B799 /* LaunchScreen.storyboard */,
 				1ACA88F722D856B600F8B799 /* Info.plist */,
 				1ACA88F822D856B600F8B799 /* main.m */,
+				1AC3E46222DC81D900CF71A7 /* iOS13.xcassets */,
 			);
 			path = testSFSymbols;
 			sourceTree = "<group>";

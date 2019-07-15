@@ -20,7 +20,6 @@
 internal enum Asset {
   internal static let icon = ColorAsset(name: "Icon")
   internal static let navigationBarBackground = ColorAsset(name: "NavigationBarBackground")
-  internal static let goodNotesFavBookmarkstarfill = ImageAsset(name: "GoodNotesFav.bookmarkstarfill")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
