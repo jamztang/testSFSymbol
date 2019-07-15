@@ -1,0 +1,6 @@
+xcassets:
+  inputs:
+    - testSFSymbols/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Generated/assets.swift

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yC7-z6-Q2z">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.15"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="Zd4-zT-ZIg">
             <objects>
-                <tableViewController id="9oj-NL-fJM" customClass="ViewController" sceneMemberID="viewController">
+                <tableViewController id="9oj-NL-fJM" customClass="ViewController" customModule="testSFSymbols" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FHK-16-1fm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +53,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cIU-w2-PDu">
-                                                    <rect key="frame" x="0.0" y="-0.33333333333333215" width="80" height="80.333333333333329"/>
+                                                    <rect key="frame" x="0.0" y="-0.66666666666666785" width="80" height="80.666666666666671"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
@@ -83,7 +84,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="euh-3a-LBV">
-                                                    <rect key="frame" x="0.0" y="0.16666666666666785" width="80" height="80.333333333333329"/>
+                                                    <rect key="frame" x="0.0" y="0.33333333333333215" width="80" height="80.666666666666671"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -114,7 +115,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jnA-vr-QLG">
-                                                    <rect key="frame" x="0.0" y="-0.49999999999999822" width="80" height="80.5"/>
+                                                    <rect key="frame" x="0.0" y="-0.99999999999999822" width="80" height="81"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -145,7 +146,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ACd-H2-2ai">
-                                                    <rect key="frame" x="0.0" y="-0.6666666666666643" width="80" height="80.333333333333314"/>
+                                                    <rect key="frame" x="0.0" y="-1.3333333333333286" width="80" height="80.666666666666643"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -230,7 +231,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jxd-l8-bdI">
-                                                    <rect key="frame" x="0.0" y="-0.16666666666666785" width="80" height="80.833333333333343"/>
+                                                    <rect key="frame" x="0.0" y="-0.33333333333333925" width="80" height="81.666666666666686"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30" weight="ultraLight">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -261,7 +262,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZSS-YV-ZTK">
-                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="81"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -292,7 +293,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WXE-u2-dhV">
-                                                    <rect key="frame" x="0.0" y="-0.5" width="80" height="80.333333333333343"/>
+                                                    <rect key="frame" x="0.0" y="-1" width="80" height="81.000000000000014"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30" weight="black">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>

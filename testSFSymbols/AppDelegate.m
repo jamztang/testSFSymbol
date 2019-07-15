@@ -12,11 +12,25 @@
 
 @end
 
-@implementation AppDelegate
-
+@implementation AppDelegate {
+    UIWindow *_window;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    if (!@available(iOS 13.0, *)) {
+        NSLog(@"iOS 12");
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UIViewController *viewController = storyboard.instantiateInitialViewController;
+
+        _window = [UIWindow new];
+        _window.rootViewController = viewController;
+        [_window makeKeyAndVisible];
+    } else {
+        NSLog(@"iOS 13");
+    }
+
     return YES;
 }
 
