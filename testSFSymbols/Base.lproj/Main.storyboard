@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yC7-z6-Q2z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14835.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yC7-z6-Q2z">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.15"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14790.5"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
         <capability name="iOS 13.0 system colors" minToolsVersion="11.0"/>
@@ -53,9 +53,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cIU-w2-PDu">
-                                                    <rect key="frame" x="0.0" y="-1.9999999999999964" width="80" height="82"/>
+                                                    <rect key="frame" x="0.0" y="-2.3333333333333321" width="80" height="82.333333333333329"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="medium" weight="unspecified">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     </preferredSymbolConfiguration>
                                                 </imageView>
@@ -69,7 +69,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="Htn-M7-hv9">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="medium" weight="unspecified">
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     </preferredSymbolConfiguration>
                                                 </imageView>
@@ -84,11 +84,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="euh-3a-LBV">
-                                                    <rect key="frame" x="0.0" y="1.0000000000000036" width="80" height="82"/>
+                                                    <rect key="frame" x="0.0" y="1.1666666666666679" width="80" height="82.333333333333329"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="small" weight="regular"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Small" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hff-VN-5AI">
                                                     <rect key="frame" x="200" y="30" width="295" height="21"/>
@@ -100,9 +98,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="925-yz-bIp">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="small" weight="regular"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -115,11 +111,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jnA-vr-QLG">
-                                                    <rect key="frame" x="0.0" y="-2.9999999999999982" width="80" height="83"/>
+                                                    <rect key="frame" x="0.0" y="-3.4999999999999982" width="80" height="83.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="medium" weight="regular"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Th8-Ey-pH7">
                                                     <rect key="frame" x="200" y="30" width="295" height="21"/>
@@ -131,9 +125,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="eqp-ae-Cad">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="medium" weight="regular"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -146,11 +138,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ACd-H2-2ai">
-                                                    <rect key="frame" x="0.0" y="-3.9999999999999858" width="80" height="81.999999999999901"/>
+                                                    <rect key="frame" x="0.0" y="-4.6666666666666501" width="80" height="82.333333333333201"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="large" weight="regular"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Large" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgh-Gh-lcY">
                                                     <rect key="frame" x="200" y="30" width="295" height="21"/>
@@ -162,9 +152,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="qLY-Mq-0F4">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" scale="large" weight="regular"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -231,11 +219,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jxd-l8-bdI">
-                                                    <rect key="frame" x="0.0" y="-1.0000000000000249" width="80" height="85.000000000000057"/>
+                                                    <rect key="frame" x="0.0" y="-1.1666666666666963" width="80" height="85.8333333333334"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30" weight="ultraLight">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="medium" weight="ultraLight"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30pt, Ultra Light" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJ9-0d-ZQk">
                                                     <rect key="frame" x="200" y="30" width="295" height="21"/>
@@ -247,9 +233,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="pOy-Bj-CDl">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30" weight="ultraLight">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="medium" weight="ultraLight"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -262,11 +246,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZSS-YV-ZTK">
-                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="83"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="83.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="medium" weight="regular"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30pt, Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEf-Ry-v5w">
                                                     <rect key="frame" x="200" y="30" width="295" height="21"/>
@@ -278,9 +260,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="yxV-hL-gNY">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="medium" weight="regular"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -293,11 +273,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WXE-u2-dhV">
-                                                    <rect key="frame" x="0.0" y="-3" width="80" height="83.6666666666667"/>
+                                                    <rect key="frame" x="0.0" y="-3.5" width="80" height="84.333333333333371"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30" weight="black">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="medium" weight="black"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30pt, Black" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZI-7a-TuN">
                                                     <rect key="frame" x="200" y="30" width="295" height="21"/>
@@ -309,9 +287,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmarkstar" translatesAutoresizingMaskIntoConstraints="NO" id="Qdm-Qp-usH">
                                                     <rect key="frame" x="88" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" pointSize="30" weight="black">
-                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                    </preferredSymbolConfiguration>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30" scale="medium" weight="black"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>

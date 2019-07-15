@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A2C888B22DC2FB600F7A11B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88EA22D856B500F8B799 /* SceneDelegate.m */; };
+		1A73250022DC8614007D7AB1 /* iOS13.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3E46222DC81D900CF71A7 /* iOS13.xcassets */; };
 		1ACA88E822D856B500F8B799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88E722D856B500F8B799 /* AppDelegate.m */; };
 		1ACA88F122D856B500F8B799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACA88EF22D856B500F8B799 /* Main.storyboard */; };
 		1ACA88F322D856B600F8B799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACA88F222D856B600F8B799 /* Assets.xcassets */; };
@@ -298,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ACA88F622D856B600F8B799 /* LaunchScreen.storyboard in Resources */,
+				1A73250022DC8614007D7AB1 /* iOS13.xcassets in Resources */,
 				1ACA88F322D856B600F8B799 /* Assets.xcassets in Resources */,
 				1ACA88F122D856B500F8B799 /* Main.storyboard in Resources */,
 			);
