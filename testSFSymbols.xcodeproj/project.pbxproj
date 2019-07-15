@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2C888B22DC2FB600F7A11B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88EA22D856B500F8B799 /* SceneDelegate.m */; };
 		1ACA88E822D856B500F8B799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88E722D856B500F8B799 /* AppDelegate.m */; };
-		1ACA88EB22D856B500F8B799 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88EA22D856B500F8B799 /* SceneDelegate.m */; };
 		1ACA88EE22D856B500F8B799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA88ED22D856B500F8B799 /* ViewController.m */; };
 		1ACA88F122D856B500F8B799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACA88EF22D856B500F8B799 /* Main.storyboard */; };
 		1ACA88F322D856B600F8B799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ACA88F222D856B600F8B799 /* Assets.xcassets */; };
@@ -272,7 +272,7 @@
 				1ACA88EE22D856B500F8B799 /* ViewController.m in Sources */,
 				1ACA88E822D856B500F8B799 /* AppDelegate.m in Sources */,
 				1ACA88F922D856B600F8B799 /* main.m in Sources */,
-				1ACA88EB22D856B500F8B799 /* SceneDelegate.m in Sources */,
+				1A2C888B22DC2FB600F7A11B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
